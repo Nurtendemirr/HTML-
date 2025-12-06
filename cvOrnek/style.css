@@ -1,0 +1,166 @@
+/* ---------------- GLOBAL SETTINGS ---------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #e8ecf3, #f6f7fb);
+    color: #1a1a1a;
+    line-height: 1.7;
+    padding-bottom: 80px;
+}
+
+/* Center content */
+section, header {
+    width: 90%;
+    max-width: 950px;
+    margin: 30px auto;
+}
+
+/* ---------------- HEADER ---------------- */
+
+header {
+    text-align: center;
+    padding: 45px 30px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+header h1 {
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+header p {
+    font-size: 18px;
+    color: #444;
+    margin-top: 10px;
+}
+
+/* ---------------- PROFILE IMAGE ---------------- */
+
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+    transition: 0.4s;
+}
+
+#profile img:hover {
+    transform: scale(1.05);
+}
+
+/* ---------------- NORMAL SECTIONS ---------------- */
+
+section {
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(10px);
+    padding: 25px 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    animation: fadeIn 0.7s ease;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    color: #222;
+}
+
+/* ---------------- LISTS ---------------- */
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+/* ---------------- PROJECT CARDS ---------------- */
+
+.project {
+    background: white;
+    padding: 18px 22px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+    border-left: 6px solid #4a81ff;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+    transition: 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    background: #f8faff;
+}
+
+/* ---------------- ANIMATIONS ---------------- */
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to   {opacity: 1; transform: translateY(0);}
+}
+
+/* ---------------- LINKS / BUTTONS ---------------- */
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #3a66ff;
+    transition: 0.25s;
+}
+
+a:hover {
+    color: #1a39d4;
+}
+
+/* CONTACT BUTTON STYLE */
+#contact a {
+    display: inline-block;
+    background: #3a66ff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: white;
+    margin: 6px 4px;
+    box-shadow: 0 4px 10px rgba(58,102,255,0.3);
+}
+
+#contact a:hover {
+    background: #1f45c7;
+    transform: translateY(-2px);
+}
+
+/* ---------------- MOBILE RESPONSIVE ---------------- */
+
+@media (max-width: 768px){
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    #profile img {
+        width: 160px;
+        height: 160px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
