@@ -1,0 +1,101 @@
+/* =============== GLOBAL STYLES =============== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0b0f19, #1c2533);
+    color: #e5e7eb;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Main container for spacing */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(15, 23, 42, 0.7);
+    padding: 25px 30px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* =============== HEADINGS =============== */
+h1 {
+    font-size: 2.3rem;
+    color: #facc15;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #fde68a;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: #f3f4f6;
+    margin-top: 15px;
+}
+
+/* =============== PARAGRAPHS =============== */
+p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* =============== HR LINE =============== */
+hr {
+    border: none;
+    border-top: 1px solid #475569;
+    margin: 20px 0;
+}
+
+/* =============== IMAGE =============== */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 12px;
+    max-width: 300px;
+    border: 2px solid #334155;
+}
+
+/* =============== CAST LIST =============== */
+ul {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+ul li {
+    padding: 3px 0;
+}
+
+/* =============== TABLE =============== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #475569;
+    font-size: 0.95rem;
+}
+
+table th {
+    background-color: #1e293b;
+    color: #f8fafc;
+}
+
+/* =============== TRAILER LINK =============== */
+a {
+    color: #facc15;
+    text-decoration:
